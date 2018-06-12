@@ -22,27 +22,32 @@ export default new Router({
     {
       path: '/cork',
       name: 'Cork',
-      component: Cork
+      component: Cork,
+      props: true
     },
     {
       path: '/nyc',
       name: 'NYC',
-      component: NYC
+      component: NYC,
+      props: true
     },
     {
       path: '/kathmandu',
       name: 'Kathmandu',
-      component: Kathmandu
+      component: Kathmandu,
+      props: true
     },
     {
       path: '/mumbai',
       name: 'Mumbai',
-      component: Mumbai
+      component: Mumbai,
+      props: true
     },
     {
       path: '/ubud',
       name: 'Ubud',
-      component: Ubud
+      component: Ubud,
+      props: true
     }
   ]
 })

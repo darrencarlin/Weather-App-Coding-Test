@@ -1,7 +1,10 @@
 <template>
 	<div class='cities page' v-if='nyc,cork,ubud,kathmandu,mumbai'>
+    <div class='intro'>
+    <h1>Weather App</h1>
+    <p>These are just some of the cities I have travelled to in the past several years.</p>
+    </div>
 		<router-link to='/nyc' exact class='city'>
-			
       <div class='conditions'>
 				<div>
         		<img alt='' 
@@ -96,48 +99,6 @@ export default {
 
 
 <style lang='scss' scoped>
-.cities {
-  background: #2193b0; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #6dd5ed,
-    #2193b0
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #6dd5ed,
-    #2193b0
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #fff;
-  min-height: 100vh;
-}
-.city {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  padding: 30px;
-  border-bottom: 2px solid #fff;
-  height: 20vh;
-  &:last-child {
-    border: 0;
-  }
-  .city-name {
-    text-align: left;
-    width: 100px;
-    p{
-      font-size: 1.2em;
-      padding: 0 0 5px 0;
-    }
-  }
-  .temp > p {
-    font-size: 2em;
-  }
-}
 
-.icon-small {
-  height: 50px;
-}
+
 </style>

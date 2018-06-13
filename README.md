@@ -8,7 +8,11 @@ Steps taken:
 * Setup as Vue.js project
 * Implemented function to get main data from API (temps,sunrise/sunset times,wind speed/direction, humidity, pressure)
 * Implemented function to get local time for each city
- * this was a little challenging given the Date object gets local time by default
+    * this was a little challenging given the Date object gets local time by default
 * Implemented function to convert sunrise / sunset time to local time
 * Implemented function to get wind direction to flesh out detailed pages
 
+Todo:
+
+* desktop version
+* deploy to public

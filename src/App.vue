@@ -10,7 +10,6 @@
       :mumbai='this.mumbai'
       :ubud='this.ubud'
       :directions='this.directions'
-     
     />
     </transition>
   </div>

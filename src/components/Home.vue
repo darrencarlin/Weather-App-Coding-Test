@@ -4,7 +4,7 @@
     <h1>Weather App</h1>
     <p>These are just some of the cities I have travelled to in the past several years.</p>
     </div>
-		<router-link to='/nyc' exact class='city'>
+		<router-link to='/Weather-App-Coding-Test/nyc' exact class='city'>
       <div class='conditions'>
 				<div>
         		<img alt='' 

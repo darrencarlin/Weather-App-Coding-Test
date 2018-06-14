@@ -1,7 +1,7 @@
 <template>
 <div class='main' v-if='kathmandu' v-bind:class="{ 'day': day, 'evening': evening, 'night': night }">
 	<div class='controls' >
-		 <router-link to='/'><i class='fas fa-arrow-circle-left fa-2x'></i></router-link>
+		 <router-link to='/Weather-App-Coding-Test/'><i class='fas fa-arrow-circle-left fa-2x'></i></router-link>
 		<p class='title'>{{kathmandu.name}}</p>
 	</div>
 	

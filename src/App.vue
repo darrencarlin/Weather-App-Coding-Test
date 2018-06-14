@@ -35,7 +35,7 @@ export default {
   methods: {
     getWeather() {
       fetch(
-        'http://api.openweathermap.org/data/2.5/group?id=2965140,5128581,1283240,1275339,1622846&units=imperial&APPID=c0653f0b4a60be8b7ba25f3324b59d78'
+        'https://api.openweathermap.org/data/2.5/group?id=2965140,5128581,1283240,1275339,1622846&units=imperial&APPID=c0653f0b4a60be8b7ba25f3324b59d78'
       )
         .then(response => {
           return response.json();

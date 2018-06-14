@@ -3,6 +3,15 @@ Weather App for a coding test
 
 * Best experience on mobile 
 
+Features:
+
+* Includes 5 city homepage with direct links to a more detailed view of each city.
+* Updates weather icon based on current local weather.
+* Sunset/Sunrise times are local based on city
+* Wind speed / Direction 
+* Provides local time for each city, the background is updated based on local time. day, evening, night gradient backgrounds. 
+
+
 Steps taken: 
 
 * Inital setup with my gulp based boilerplate. Playing around with the API while coming up with design ideas. 

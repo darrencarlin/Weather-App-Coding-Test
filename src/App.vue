@@ -117,11 +117,11 @@ a {
   align-content: center;
   align-items: center;
   padding: 30px;
-  border-bottom: 2px solid #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+
   height: 20vh;
-  &:last-child {
-    border: 0;
-  }
+
   .city-name {
     text-align: left;
     width: 100px;
@@ -334,7 +334,7 @@ div {
       width: 35%;
       margin: 10px;
       transition: all .3s ease-in-out;
-      border: 0;
+      //box-shadow: 0px 10px 55px 0px rgba(0,0,0,0.5);
       &:hover {
         background: #fff;
         color: #000;

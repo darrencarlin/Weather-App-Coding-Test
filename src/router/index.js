@@ -13,38 +13,38 @@ export default new Router({
   mode: 'history',
   routes: [{
       path: '*',
-      redirect: '/Weather-App-Coding-Test/',
+      redirect: '/',
     }, {
-      path: '/Weather-App-Coding-Test/',
+      path: '/',
       name: 'Home',
       component: Home
     },
     {
-      path: 'Weather-App-Coding-Test/cork',
+      path: '/cork',
       name: 'Cork',
       component: Cork,
       props: true
     },
     {
-      path: 'Weather-App-Coding-Test/nyc',
+      path: '/nyc',
       name: 'NYC',
       component: NYC,
       props: true
     },
     {
-      path: 'Weather-App-Coding-Test/kathmandu',
+      path: '/kathmandu',
       name: 'Kathmandu',
       component: Kathmandu,
       props: true
     },
     {
-      path: 'Weather-App-Coding-Test/mumbai',
+      path: '/mumbai',
       name: 'Mumbai',
       component: Mumbai,
       props: true
     },
     {
-      path: 'Weather-App-Coding-Test/ubud',
+      path: '/ubud',
       name: 'Ubud',
       component: Ubud,
       props: true

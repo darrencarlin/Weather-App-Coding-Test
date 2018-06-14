@@ -330,7 +330,7 @@ div {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    height: auto;
+    height: 100vh;
     .intro {
       width: 100%;
     }

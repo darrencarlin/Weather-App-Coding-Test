@@ -99,7 +99,7 @@ export default {
       let time = new Date(utc + 3600000 * offset);
       let localTime = time.toLocaleString().substr(12, 5);
       let day = localTime.substr(0,2)
-      console.log(day)
+   
       if (day > 6 && day < 17) {
         this.day = true;
         this.morning = false;

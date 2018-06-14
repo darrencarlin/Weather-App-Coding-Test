@@ -48,9 +48,6 @@ export default {
           this.ubud = cities.list['4'];
         })
         .then(() => {
-          console.log(this.cork);
-          console.log(this.nyc);
-          console.log(this.kathmandu);
         });
     },
   }

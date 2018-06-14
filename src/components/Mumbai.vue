@@ -97,19 +97,19 @@ export default {
       let time = new Date(utc + 3600000 * offset);
       let localTime = time.toLocaleString().substr(12, 5);
       let day = localTime.substr(0,2)
-      console.log(day)
+      
       if (day > 6 && day < 17) {
-        console.log('1')
+        
         this.day = true;
         this.morning = false;
         this.night = false;
       } else if (day > 16 && day < 20) {
-         console.log('2')
+        
         this.evening = true;
         this.day = false;
         this.night = false;
       } else {
-         console.log('3')
+         
         this.night = true;
         this.day = false;
         this.evening = false;

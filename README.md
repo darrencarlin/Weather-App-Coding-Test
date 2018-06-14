@@ -1,6 +1,7 @@
 # Weather-App-Coding-Test
 Weather App for a coding test
 
+* Best experience on mobile 
 
 Steps taken: 
 
